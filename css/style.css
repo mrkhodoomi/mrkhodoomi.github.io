@@ -551,7 +551,17 @@ img {
   font-size: var(--smaller-font-size);
 }
 
-.references__contact ul li {
+.references__content p, 
+.references__content ul {
+  gap: 0;
+}
+
+.references__content ul {
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-2);
+}
+
+/* .references__contact ul li {
   margin: 0;
   padding: 0;
 }
@@ -565,14 +575,14 @@ img {
 .references__background{
   background-color: rgb(242, 242, 242);
   border-radius: .25rem;
-}
+} */
 
-.references__content p,
+/* .references__content p,
 .references__subtitle,
 .references__title,
 .references__contact {
   padding: 1rem;
-}
+} */
 
 /*========== INTERESTS ==========*/
 .interests__container{
