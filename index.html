@@ -1,753 +1,709 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!--========== BOX ICONS ==========-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="css/style.css">
-
-        <title>Responsive resume cv</title>
-    </head>
-    <body>
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Khodoomi</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">
-                                <i class='bx bx-home nav__icon'></i>Home
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#profile" class="nav__link">
-                                <i class='bx bx-user nav__icon' ></i>Profile
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#education" class="nav__link">
-                                <i class='bx bx-book nav__icon'></i>Education
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#honors" class="nav__link">
-                                <i class='bx bx-trophy nav__icon'></i>Honors
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#interests" class="nav__link">
-                                <i class='bx bx-brain nav__icon' ></i>Research interests
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">
-                                <i class='bx bx-receipt nav__icon' ></i>Skills
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#journal" class="nav__link">
-                                <i class='bx bx-book-reader nav__icon' ></i>Selected Journal Paper
-                            </a>
-                        </li>
-
-
-                        <li class="nav__item">
-                            <a href="#job__experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt nav__icon'></i>Job Experience
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#academic__experience" class="nav__link">
-                                <i class='bx bx-briefcase-alt-2 nav__icon'></i>Academic Experience
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#project" class="nav__link">
-                                <i class='bx bx-award nav__icon'></i>Project
-                            </a>
-                        </li>
-
-                        <li class="nav__item">
-                            <a href="#references" class="nav__link">
-                                <i class='bx bx-link-external nav__icon'></i>References
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-grid-alt' ></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main bd-container">
-            <!-- All elements within this div, is generated in PDF -->
-            <div class="resume" id="area-cv">
-                <div class="resume__left">
-                    <!--========== HOME ==========-->
-                    <section class="home" id="home">
-                        <div class="home__container section bd-grid">
-                            <div class="home__data bd-grid">
-                                <img src="img/Pro_Si.jpg" alt="" class="home__img">
-                                <h1 class="home__title">Mohammad Reza Khodoomi</h1>
-                                <!-- <h3 class="home__profession">industrial engineering</h3> -->
-
-                               
-                                <div>
-                                    <a download="" href="/resume cv/" class="home__button-movil">Downlaod  </a>
-                                </div>
-                            </div>
-                            <div class="home__address bd-grid">
-                                <span class="home__information">
-                                    <i class="bx bx-map home__icon"></i> Tehran, Iran
-                                </span>
-
-                                <span class="home__information">
-                                    <i class='bx bxs-graduation home__icon'></i> m_khodoomi@ind.iust.ac.ir
-                                </span>
-
-                                <span class="home__information">
-                                    <i class="bx bx-envelope home__icon"></i> mkhodoomi@yahoo.com
-                                </span>
-
-                                <span class="home__information">
-                                    <i class="bx bx-phone home__icon"></i> +98 938 612 0304
-                                </span>
-                            </div>
-                        </div>
-
-                        <!-- Theme change button -->
-                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
-
-                        <!-- Button to generate and download the pdf. Available for desktop. -->
-
-                    </section> 
-                    
-                    
-                    <!--========== SOCIAL ==========-->
-                    <section class="social section">
-                        <h2 class="section-title">SOCIAL</h2>
-
-                        <div class="social__container bd-grid">
-                            <a href="https://www.linkedin.com/in/mohammad-reza-khodoomi-623a86a5/" class="social__link">
-                                <i class="bx bxl-linkedin-square social__icon"></i> mohammad reza khodoomi
-                            </a>
-
-                            <a href="https://join.skype.com/invite/egX7yCSCNuNW" class="social__link">
-                                <i class='bx bxl-skype social__icon'></i> @mkhodoomi
-                            </a>
-
-                            <a href="https://www.instagram.com/mohammad_r.kh/" class="social__link">
-                                <i class="bx bxl-instagram social__icon"></i> @mohammad_r.kh
-                            </a>
-                        </div>
-                    </section>
-
-                    <!--========== PROFILE ==========-->
-                    <section class="profile section" id="profile">
-                        <h2 class="section-title">Profile</h2>
-
-                        <p class="profile__description">
-                            My goal is to be better today than I was yesterday.
-                            I've received my B.Sc. in Industrial Engineering from the Quchan University of Technology in 2017. I followed Industrial & System Engineering topics with great interest and I'm currently a master's student at the School of Industrial Engineering at Iran University of Science and Technology. 
-                            I am an energetic, innovative, flexible, and hard-working person with interests focus research on Logistics, and Supply Chain Management, and Operations Research, Sustainability, and Energy Networks.
-                        </p>
-                    </section>
-                    
-                    <!--========== EDUCATION ==========-->
-                    
-                    <!-- <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">MASTER OF DESIGN</h3>
-                                    <span class="education__studies">University od Studies</span>
-                                    <span class="educatoin__year">2010 - 2015</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Security</h3>
-                                    <span class="education__studies">University od Studies</span>
-                                    <span class="educatoin__year">2010 - 2015</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span> -->
-                                    <!-- <span class="education__line"></span> -->
-                                <!-- </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Security od Splunk</h3>
-                                    <span class="education__studies">University od Studies</span>
-                                    <span class="educatoin__year">2010 - 2015</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
-
-
-                    <!--========== SKILLS  ==========-->
-                    <!-- <section class="skills section" id="skills">
-                        <h2 class="section-title">Skills</h2>
-
-                        <div class="skills__content bd-grid">
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Html
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Css
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Sass
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Java
-                                </li>
-                            </ul>
-
-                            <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Html
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Css
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Sass
-                                </li>
-
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Java
-                                </li>
-                            </ul>
-                        </div>
-                    </section> -->
-
-                </div>
-
-                <div class="resume__right">
-                     <!--========== EDUCATION ==========-->
-                     <section class="education section" id="education">
-                        <h2 class="section-title">Education</h2>
-
-                        <div class="education__container bd-grid">
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Master of Science</h3>
-                                    <span class="education__studies">Iran University of Science and Technology, School of Industrial Engineering;
-                                        Logistics and Supply Chain</span>
-                                    <span class="education__thesis"><b>Thesis Title:</b> Designing a Peer-to-Peer electricity trading network with a storage
-                                        system under uncertainty conditions</span>
-                                    <span class="education__supervisor"><b>Supervisor: </b> Assistant Professor Hadi Sahebi</span>
-                                    <span class="education__gpa"><b>GPA: </b> 3.65/4</span>
-                                    <span class="educatoin__year">2019 - Present</span>
-                                </div>
-                            </div>
-
-                            <div class="education__content">
-                                <div class="education__time">
-                                    <span class="education__rounder"></span>
-                                    <span class="education__line"></span>
-                                </div>
-
-                                <div class="education__data bd-grid">
-                                    <h3 class="education__title">Bachelor of Science</h3>
-                                    <span class="education__studies">Quchan University of Technology, Department of Industrial Engineering</span>
-                                    <span class="education__thesis"><b>Thesis Title:</b> Choosing the right supplier in the supply chain</span>
-                                    <span class="education__supervisor"><b>Supervisor: </b> Dr. Majid Soolaki</span>
-                                    <span class="education__gpa"><b>GPA: </b> 3.76/4</span>
-                                    <span class="educatoin__year">2013 - 2017</span>
-                                </div>
-                            </div>
-
-                            
-                        </div>
-                    </section>
-
-                    <!-- ===== Honors ===== -->
-                    <section class="honor section" id="honors">
-                        <h2 class="section-title">Honors</h2>
-                        <div class="bd-grid">
-                                <ul>
-                                    <li class="honor__item">Awarded Tuition-Waiver Scholarship at Iran University of Science and
-                                        Technology (2019)</li>
-                                    <li class="honor__item">Ranked 88th in industrial engineering entrance exam for Master's degree (2019)</li>
-                                    <li class="honor__item">Ranked within the top 15% amongst all Bachelor’s students at Quchan University of
-                                        Technology class (2017)</li>
-                                </ul>
-                        </div>
-                    </section>
-
-                   <!--========== Research Interests ==========-->
-                   <section class="interests section" id="interests">
-                    <h2 class="section-title">Research Interests</h2>
-
-                    <div class="bd-grid">
-                        <div>
-                            <ul>
-                                <li class="interests__item">Logistics and Supply Chain Management</li>
-                                <li class="interests__item">Operation Research</li>
-                                <li class="interests__item">Energy Optimization</li>
-                                <li class="interests__item">Sustainability</li>
-                                <li class="interests__item">Stochastic Optimization</li>
-                                <li class="interests__item">Decision Making</li>
-                                <li class="interests__item">Data Mining</li>
-                            </ul>
-                        </div>
-                    </div>
-                    </section>
-
-                    <!--========== skills ==========-->
-                   <section class="skills section" id="skills">
-                    <h2 class="section-title">Skills</h2>
-
-                    <div class="bd-grid">
-                        <div>
-                            <h3>Computer</h3>
-                            <ul class="skills__item">
-                                <li class="skills__description"><span><b>Programming: </b>GAMS, MATLAB, R</span></li>
-                                <li class="skills__description"><span><b>Software: </b>Arena, Expert Choice, Microsoft Project, Minitab, LaTeX, Microsoft
-                                    Office, Adobe Photoshop</span></li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h3>Language</h3>
-                            <ul class="skills__item">
-                                <li class="skills__description"><b>Persian (Native)</b></li>
-                                <li class="skills__description"><b>English (Fluent)</b>
-                                    <ul class="skills__item">
-                                        <li class="skills__description__english"><b>IELTS (Academic)</b></li>It will be taken in the fall of 2021<br><br>
-                                        <li class="skills__description__english"><b>GRE (General)</b></li>It will be taken in the fall of 2021
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-                            <h3></h3>
-                            <ul class="skills__item">
-                                <li class="skills__description"> <b>Other Skills:</b> Research, Modeling, Data Mining, Optimization, Simulation, MCDM</li>
-                            </ul>
-                        </div>
-                    </div>
-                    </section>
-
-                    <!--========== journal ==========-->
-                   <section class="journal section" id="journal">
-                    <h2 class="section-title">Selected Journal Paper</h2>
-
-                    <div class="bd-grid">
-                        <div>
-                            <ul>
-                                <li class="journal__item">
-                                    Khodoomi, M. R., Sazegaran, H, Jafari, A. (2019). An overview of new human
-                                    resource management approaches to increase organizational productivity
-                                </li>
-                                <li class="journal__item">
-                                    Khodoomi, M. R., & Sadrnia, A. (2019). Benefit from UAV technology in supply
-                                    chain: study of the barriers and opportunities ahead.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    </section>
-
-                    <!--========== Job EXPERIENCE ==========-->
-                    <section class="experience section" id="job__experience">
-                        <h2 class="section-title">Job Experience</h2>
-
-                        <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="expericne__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                            
-
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Supply Chain Planner</h3>
-                                    <span class="experience__company">From 2020 to 2021 | Mihan Company (Dayli Market Chain Store)</span>
-                                    <ul class="job__experience__description">
-                                        <li class="experience__job">Products supply planning for chain stores.</li>
-                                        <li class="experience__job">Inventory control and optimal ordering.</li>
-                                        <li class="experience__job">Product sales trend analysis.</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="expericne__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                            
-
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Logistics Expert</h3>
-                                    <span class="experience__company">2020 | Modiseh Company (Online Shop)</span>
-                                    <ul class="job__experience__description">
-                                        <li>Schedule orders (according to their route).</li>
-                                        <li>Check orders status.</li>
-                                        <li>Compilation of distribution system performance report.</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                     <!--========== Academic EXPERIENCE ==========-->
-                     <section class="experience section" id="academic__experience">
-                        <h2 class="section-title">Academic Experience</h2>
-
-                        <div class="experience__container bd-grid">
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="expericne__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                            
-
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Teacher</h3>
-                                    <span class="experience__company">From 2017 to 2019 | Ministry of Education, Iran</span>
-                                    <p class="experience__description">
-                                        This period was related to my military service - After completing the courses of
-                                        teaching methods, I joined the Ministry of Education to teach in schools.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="experience__content">
-                                <div class="experience__time">
-                                    <span class="expericne__rounder"></span>
-                                    <span class="experience__line"></span>
-                                </div>
-                            
-
-                                <div class="experience__data bd-grid">
-                                    <h3 class="experience__title">Lecturer</h3>
-                                    <span class="experience__company">2018 | Faradars.org</span>
-                                    <p class="experience__description">
-                                        Teaching WinQSB software tutorial in FaraDars (Online training)
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    
-                    <!-- skills section -->
-                    <!-- <section class="skills section" id="skills"> -->
-                        <!-- <span class="section-subtitle">Why Choose Me</span> -->
-                        <!-- <h2 class="section-title">My expertise Area</h2>
-
-                        <div class="skills__container bd-grid">
-                            <div class="skills__content">
-                                <h3 class="skills__subtitle">Frontend</h3>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">Html/css</span>
-                                    <span class="skills__number">80%</span>
-                                    <span class="skills__bar skills__html"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">JavaScript</span>
-                                    <span class="skills__number">60%</span>
-                                    <span class="skills__bar skills__js"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">React</span>
-                                    <span class="skills__number">80%</span>
-                                    <span class="skills__bar skills__react"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">jquery</span>
-                                    <span class="skills__number">90%</span>
-                                    <span class="skills__bar skills__jquery"></span>
-                                </div>                       
-                            </div>
-
-                            <div class="skills__content">
-                                <h3 class="skills__subtitle">backend</h3>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">php</span>
-                                    <span class="skills__number">80%</span>
-                                    <span class="skills__bar skills__php"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">NodJS</span>
-                                    <span class="skills__number">70%</span>
-                                    <span class="skills__bar skills__nodjs"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">bootstrap</span>
-                                    <span class="skills__number">85%</span>
-                                    <span class="skills__bar skills__bootstrap"></span>
-                                </div>
-
-                                <div class="skills__data">
-                                    <span class="skills__name">firebase</span>
-                                    <span class="skills__number">100%</span>
-                                    <span class="skills__bar skills__firebase"></span>
-                                </div>                       
-                            </div>
-                        </div>
-                    </section> -->
-                    
-                    <!-- Project -->
-                    <section class="project section" id="project">
-                        <h2 class="section-title">Project</h2>
-
-                        <div class="bd-grid">
-                            <ul>
-                                <li class="project__item">Feasibility study report (mountaineering clothing production) for Charkhe Barekat
-                                    Event (2020)</li>
-                                <li class="project__item">Internship at Iran-Khodro Company for design and creation of working instructions for
-                                    the skillful (Senior Workers) in the car production line (2016)</li>
-                                <li class="project__item">Layout optimization (workforce & machinery estimation, production line balancing,
-                                    activity relationship analyses) at Abisooz Company (2015)</li>
-                                <li class="project__item">Work study (Created OPC, FPC, APC, cycle time, two-handed process chart, etc.) at
-                                    Abisooz Company (2015)</li>
-                            </ul>
-                    </div>
-
-                        <!-- <div class=" bd-grid">
-                            <div class="project__content">
-                                <div class="project__year"><b>2020</b> </div>
-                                <div class="project__description">Feasibility study report (mountaineering clothing production) for Charkhe Barekat
-                                    Event</div>
-                            </div>
-
-                            <div class="project__content">
-                                <div class="project__year"><b>2016</b> </div>
-                                <div class="project__description">Internship at Iran-Khodro Company for design and creation of working instructions for
-                                    the skillful (Senior Workers) in the car production line</div>
-                            </div>
-
-                            <div class="project__content">
-                                <div class="project__year"><b>2015</b> </div>
-                                <div class="project__description">Layout optimization (workforce & machinery estimation, production line balancing,
-                                    activity relationship analyses) at Abisooz Company</div>
-                            </div>
-
-                            <div class="project__content">
-                                <div class="project__year"><b>2015</b> </div>
-                                <div class="project__description">Work study (Created OPC, FPC, APC, cycle time, two-handed process chart, etc.) at
-                                    Abisooz Company</div>
-                            </div>
-
-                        </div> -->
-                    </section>
-
-                    <!--========== CERTIFICATES ==========-->
-                    <!-- <section class="certificate section" id="certificates">
-                        <h2 class="section-title">Project</h2>
-
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
-                                <p class="certificate__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo consequatur maiores autem repudiandae incidunt dolores qui doloribus! Dicta est veritatis reprehenderit aperiam placeat odio.
-                                </p>
-                            </div>
-
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
-                                <p class="certificate__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo consequatur maiores autem repudiandae incidunt dolores qui doloribus! Dicta est veritatis reprehenderit aperiam placeat odio.
-                                </p>
-                            </div>
-
-                            <div class="certificate__content">
-                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
-                                <p class="certificate__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illo consequatur maiores autem repudiandae incidunt dolores qui doloribus! Dicta est veritatis reprehenderit aperiam placeat odio.
-                                </p>
-                            </div>
-                        </div>
-                    </section> -->
-
-                    <!--========== REFERENCES ==========-->
-                    <section class="references section" id="references">
-                        <h2 class="section-title">References</h2>
-
-                        <div class="references__container bd-grid">
-                            <div class="references__content bd-grid" >
-                                <!-- <span class="references__subtitle"></span> -->
-                                <h3 class="references__title">Mr. Clay Doe</h3>
-                                <p>
-                                    Assistant Professor, School of Industrial Engineering, Iran University of Science and
-                                    Technology, Tehran, Iran
-                                </p>
-                                <ul class="references__contact">
-                                    <li>Email: <b>hadi_sahebi@iust.ac.ir</b> </li>
-                                </ul>
-                            </div>
-
-                            <div class="references__content bd-grid">
-                                <!-- <span class="references__subtitle"></span> -->
-                                <h3 class="references__title">Mir Saman Pishvaee</h3>
-                                <p>
-                                    Associate Professor, School of Industrial Engineering, Iran University of Science and
-                                    Technology, Tehran, Iran
-                                </p>
-                                <ul class="references__contact">
-                                    <li> Email: <b>pishvaee@iust.ac.ir</b> </li>
-                                </ul>
-                            </div>
-
-                            <div class="references__content bd-grid">
-                                <!-- <span class="references__subtitle"></span> -->
-                                <h3 class="references__title">Majid Soolaki</h3>
-                                <p>
-                                    Postdoctoral Researcher, University College Dublin, Dublin, Ireland (Lecturer at
-                                    Quchan University of Technology)
-                                </p>
-                                <ul class="references__contact">
-                                    <li> Email: <b>majid.soolaki@gmail.com</b> </li>
-                                </ul>
-                            </div>
-
-                            <div class="references__content bd-grid">
-                                <!-- <span class="references__subtitle"></span> -->
-                                <h3 class="references__title">Abdalhossein Sadrnia</h3>
-                                <p>
-                                    Assistant Professor, Department of Industrial Engineering, Quchan University of
-                                    Technology, Quchan, Iran
-                                </p>
-                                <ul class="references__contact">
-                                    <li> Email: <b>a-sadrnia@qiet.ac.ir.com</b> </li>
-                                </ul>
-                            </div>
-
-                            <div class="references__content bd-grid">
-                                <!-- <span class="references__subtitle"></span> -->
-                                <h3 class="references__title">Shokoufeh Abrishami</h3>
-                                <p>
-                                    Data Scientist, Bravinci Company, Utrecht, Netherlands (Lecturer at Quchan
-                                    University of Technology)
-                                </p>
-                                <ul class="references__contact">
-                                    <li> Email: <b>sh.abrishami.te@gmail.com</b> </li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                    </section>
-
-                    <!--========== LANGUAGES ==========-->
-                    <!-- <section class="languages section">
-                        <h2 class="section-title">Languages</h2>
-
-                        <div class="languages__container">
-                            <ul class="languages__content bd-grid">
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> Spanish
-
-                                </li>
-
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> English
-                                    
-                                </li>
-
-                                <li class="languages__name">
-                                    <span class="languages__circle"></span> French
-                                    
-                                </li>
-                            </ul>
-                        </div>
-                    </section> -->
-                    
-                    <!--========== INTERESTS ==========-->
-                    <!-- <section class="interests section">
-                        <h2 class="section-title">Interests</h2>
-
-                        <div class="interests__container bd-grid">
-                            <div class="interests__content">
-                                <i class="bx bxs-plane-alt interests__icon"></i>
-                                <span class="interests__name">Music</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class="bx bx-headphone interests__icon"></i>
-                                <span class="interests__name">Travel</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class="bx bx-book interests__icon"></i>
-                                <span class="interests__name">Read</span>
-                            </div>
-
-                            <div class="interests__content">
-                                <i class="bx bx-dumbbell interests__icon"></i>
-                                <span class="interests__name">Fitness</span>
-                            </div>
-                        </div>
-                    </section> -->
-                </div>
-            </div>        
-        </main>
-
-        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
-        </a>
-
-        <!--========== HTML2PDF ==========-->
-        <script src="js/html2pdf.bundle.min.js"></script>
-
-        <!--========== MAIN JS ==========-->
-        <script src="js/main.js"></script>
-    </body>
-</html>
-
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+  
+  /*========== Colors ==========*/
+  --title-color: #0B0A0A;
+  --text-color: #403A3A;
+  --text-color-light: #707070;
+  --container-color: #FAFAFA;
+  --container-color-alt: #F0EFEF;
+  --body-color: #FCFCFC;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .875rem;
+  --smaller-font-size: .813rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes ==========*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+/*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --title-color: #F2F2F2;
+  --text-color: #BFBFBF;
+  --container-color: #212121;
+  --container-color-alt: #181616;
+  --body-color: #2B2B2B;
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme{
+  position: absolute;
+  right: 0;
+  top: 2.2rem;
+  display: flex;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.change-theme:hover{
+  color: var(--title-color);
+}
+
+/*========== Font size variables to scale cv ==========*/
+
+
+/*========== Generate PDF button ==========*/
+
+
+/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+body{
+  margin: 0 0 var(--header-height) 0;
+  padding: 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1,h2,h3,ul,p{
+  margin: 0;
+}
+
+h1,h2,h3{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*========== CLASS CSS ==========*/
+.section{
+  margin-top: 4rem;
+  padding: 1.5rem 0;
+}
+
+.section-title{
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  text-transform: capitalize;
+  letter-spacing: .35rem;
+  text-align: center;
+  margin-bottom: var(--mb-3);
+}
+
+/*========== LAYOUT ==========*/
+.bd-container{
+  max-width: 968%;
+  width: calc(100% - 3rem);
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-3);
+}
+
+.bd-grid{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.l-header{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background: var(--body-color);  
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+
+/*========== NAV ==========*/
+.nav{
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 960px){
+  .nav__menu{
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    background-color: var(--body-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .1);
+    border-radius: 1rem 1rem 0 0;
+    z-index: var(--z-fixed);
+    transition: .3s;
+  }
+}
+
+.nav__logo,
+.nav__toggle{
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__toggle{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav__item{
+  text-align: center;
+}
+
+.nav__list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav__link{
+  display: flex;
+  flex-direction: column;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--font-medium);
+}
+
+.nav__link:hover{
+  color: var(--title-color);
+}
+
+.nav__icon{
+  font-size: 1.2rem;
+  margin-bottom: var(--mb-1);
+}
+
+/* Show menu */
+.show-menu{
+  bottom: var(--header-height);
+}
+
+
+/* Active menu link */
+.active-link{
+  color: var(--title-color);
+}
+
+/*========== HOME ==========*/
+.home{
+  position: relative;
+}
+
+.home__container{
+  gap: 3rem;
+}
+
+.home__data{
+  gap: .5rem;
+  text-align: center;
+}
+
+.home__img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  justify-self: center;
+  margin-bottom: var(--mb-1);
+}
+
+.home__title{
+  font-size: var(--h1-font-size);
+}
+
+.home__profession{
+  font-size: var(--normal-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.home__address{
+  gap: 1rem;
+}
+
+.home__information{
+  display: flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+}
+
+.home__icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
+
+.home__button-movil{
+  display: inline-block;
+  border: 2px solid;
+  color: var(--title-color);
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  transition: .3s;
+  font-weight: var(--font-medium);
+  margin-top: var(--mb-3);
+}
+
+.home__button-movil:hover{
+  background-color: var(--text-color);
+  color: var(--container-color);
+}
+
+/*========== SOCIAL ==========*/
+.social__container{
+  grid-template-columns: max-content;
+  gap: 1rem;
+}
+
+.social__link{
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+.social__link:hover{
+  color: var(--title-color);
+}
+
+.social__icon{
+  font-size: 1.2rem;
+  margin-right: .25rem;
+}
+
+/*========== PROFILE ==========*/
+.profile__description{
+  text-align: center;
+}
+
+/*========== EDUCATION AND EXPERIENCE ==========*/
+.education__content,
+.experience__content{
+  display: flex;
+}
+
+.education__time,
+.experience__time{
+  padding-right: 1rem;
+}
+
+.education__rounder,
+.expericne__rounder{
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-top: .25rem;
+}
+
+.education__line,
+.experience__line{
+  display: block;
+  width: 2px;
+  height: 110%;
+  background-color: var(--text-color-light);
+  transform: translate(7px, 0);
+}
+
+.education__data,
+.experience__data{
+  gap: .5rem;
+}
+
+.educatoin__title,
+.experience__title{
+  font-size: var(--h3-font-size);
+}
+
+.education__studies,
+.experience__company{
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+.educatoin__year{
+  font-size: var(--smaller-font-size);
+}
+
+.educatoin__title{
+  font-size: var(--h3-font-size);
+}
+
+.education__studies{
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+}
+
+/*========== SKILLS AND LANGUAGES ==========*/
+/* .languages__content{
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.languages__content{
+  gap: 0;
+}
+
+.languages__name{
+ display: flex; 
+ align-items: center;
+ margin-bottom: var(--mb-3);
+}
+
+.languages__circle{
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  margin-right: .75rem;
+} */
+
+/* Skills */
+.skills__container{
+  row-gap: 2rem;
+}
+
+.skills__subtitle{
+  font-size: var(--h3-font-size);
+  color: var(--first-color-dark);
+  margin-bottom: var(--mb-2);
+}
+
+.skills__data{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 var(--mb-2);
+  margin-bottom: var(--mb-4);
+}
+
+.skills__name{
+  text-transform: uppercase;
+}
+
+.skills__bar{
+  position: absolute;
+  bottom: -.75rem;
+  height: .25rem;
+  background-color: var(--text-color-light);
+}
+
+.skills__html{
+  width: 80%;
+}
+
+.skills__js{
+  width: 60%;
+}
+
+.skills__react{
+  width: 80%;
+}
+
+.skills__jquery{
+  width: 90%;
+}
+
+.skills__php{
+  width: 80%;
+}
+
+.skills__nodjs{
+  width: 70%;
+}
+
+.skills__bootstrap{
+  width: 85%;
+}
+
+.skills__firebase{
+  width: 100%;
+}
+
+/*========== CERTIFICATES ==========*/
+.certificate__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+/*========== HONORS and project items ==========*/
+.honors__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+.honor__item, .project__item{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+.honor ul, .project ul{
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+
+/*========== interests ==========*/
+.interests__item{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+.interests ul {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+/*========== skills ==========*/
+.skills .skills__item{
+  margin-top: var(--mb-2);
+  padding-left: 2rem;
+}
+
+.skills .skills__description{
+  list-style: disc;
+  padding-bottom: 0.5rem;
+}
+
+.skills .skills__description__english{
+  list-style: disc;
+}
+
+/*========== Journal ==========*/
+.journal ul{
+  padding-left: 1rem;
+}
+.journal__item{
+  font-size: var(--h3-font-size);
+  margin-top: var(--mb-3);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+/*========== job experience ==========*/
+.job__experience__description {
+  padding-left: 0.5rem;
+  list-style: disc;
+}
+
+/*========== project ==========*/
+.project__year{
+  font-size: var(--h3-font-size);
+  float: left;
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.project__description{
+  float: right;
+  width: 85%;
+  box-sizing: border-box;
+}
+
+/*========== REFERENCES ==========*/
+.references__subtitle{
+  color: var(--text-color-light);
+}
+
+.references__subtitle,
+.references__contact{
+  font-size: var(--smaller-font-size);
+}
+
+.references__content p, 
+.references__content ul {
+  gap: 0;
+}
+
+.references__content ul {
+  margin-top: var(--mb-1);
+  margin-bottom: var(--mb-2);
+}
+
+/* .references__contact ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.references__title{
+  font-size: var(--h3-font-size);
+  margin: 0;
+  padding: 0;
+}
+
+.references__background{
+  background-color: rgb(242, 242, 242);
+  border-radius: .25rem;
+} */
+
+/* .references__content p,
+.references__subtitle,
+.references__title,
+.references__contact {
+  padding: 1rem;
+} */
+
+/*========== INTERESTS ==========*/
+.interests__container{
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: var(--mb-2);
+}
+
+.interests__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests__icon{
+  font-size: 1.5rem;
+  color: var(--text-color-light);
+  margin-bottom: .25rem;
+}
+
+
+
+/* Scroll top */
+.scrolltop{
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .3rem;
+  background-color: var(--container-color-alt);
+  border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+  visibility: hidden;
+}
+
+.scrolltop__icon{
+  font-size: 1.2rem;
+  color: var(--text-color-light);
+}
+
+.show-scroll{
+  visibility: visible;
+  bottom: 5rem;
+}
+
+/*========== MEDIA QUERIES ==========*/
+/* For small devices, menu two columns */
+@media screen and (max-width: 320px){
+  .nav__list{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem .5rem;
+  }
+
+  .skills__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 760px){
+  .skills__container{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+/* Classes modified for large screen size */
+@media screen and (min-width: 960px){
+  body{
+    margin: 3rem 0;
+  }
+
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .l-header,
+  .scrolltop{
+    display: none;
+  }
+
+  .resume{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    background-color: var(--container-color);
+    box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+  }
+
+  .resume__left{
+    background-color: var(--container-color-alt);
+  }
+
+  .resume__left,
+  .resume__right{
+    padding: 0 1.5rem;
+  }
+
+  .section-title,
+  .profile__description{
+    text-align: initial;
+  }
+
+  .home__container{
+    gap: 1.5rem;
+  }
+
+  .home__button-movil{
+    display: none;
+  }
+
+  .references__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .languages__content{
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 3.5rem;
+  }
+
+  .interests__container{
+    grid-template-columns: repeat(4, max-content);
+  }
+}
