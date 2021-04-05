@@ -114,6 +114,7 @@ img {
 
 /*========== CLASS CSS ==========*/
 .section{
+  margin-top: 4rem;
   padding: 1.5rem 0;
 }
 
@@ -121,7 +122,7 @@ img {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: .35rem;
   text-align: center;
   margin-bottom: var(--mb-3);
@@ -464,9 +465,75 @@ img {
   margin-bottom: var(--mb-1);
 }
 
+/*========== HONORS ==========*/
+.honors__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+}
+
+/*========== interests ==========*/
+.interests__item{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+.interests ul {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+/*========== skills ==========*/
+.skills .skills__item{
+  margin-top: var(--mb-2);
+  padding-left: 2rem;
+}
+
+.skills .skills__description{
+  list-style: disc;
+  padding-bottom: 0.5rem;
+}
+
+.skills .skills__description__english{
+  list-style: disc;
+}
+
+/*========== Journal ==========*/
+.journal ul{
+  padding-left: 1rem;
+}
+.journal__item{
+  font-size: var(--h3-font-size);
+  margin-top: var(--mb-3);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+/*========== job experience ==========*/
+.job__experience__description {
+  padding-left: 0.5rem;
+  list-style: disc;
+}
+
+/*========== project ==========*/
+.project__year{
+  font-size: var(--h3-font-size);
+  float: left;
+  width: 15%;
+  box-sizing: border-box;
+}
+
+.project__description{
+  float: right;
+  width: 85%;
+  box-sizing: border-box;
+}
+}
+
 /*========== REFERENCES ==========*/
 .references__content{
   gap: .25rem;
+  background-color: var(--text-color-light);
 }
 
 .references__subtitle{
@@ -478,8 +545,15 @@ img {
   font-size: var(--smaller-font-size);
 }
 
+.references__contact ul li {
+  margin: 0;
+  padding: 0;
+}
+
 .references__title{
   font-size: var(--h3-font-size);
+  margin: 0;
+  padding: 0;
 }
 
 /*========== INTERESTS ==========*/
@@ -499,6 +573,8 @@ img {
   color: var(--text-color-light);
   margin-bottom: .25rem;
 }
+
+
 
 /* Scroll top */
 .scrolltop{
