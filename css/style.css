@@ -465,11 +465,23 @@ img {
   margin-bottom: var(--mb-1);
 }
 
-/*========== HONORS ==========*/
+/*========== HONORS and project items ==========*/
 .honors__title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-1);
 }
+
+.honor__item, .project__item{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-1);
+  list-style: disc;
+}
+
+.honor ul, .project ul{
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
 
 /*========== interests ==========*/
 .interests__item{
@@ -528,14 +540,8 @@ img {
   width: 85%;
   box-sizing: border-box;
 }
-}
 
 /*========== REFERENCES ==========*/
-.references__content{
-  gap: .25rem;
-  background-color: var(--text-color-light);
-}
-
 .references__subtitle{
   color: var(--text-color-light);
 }
@@ -554,6 +560,18 @@ img {
   font-size: var(--h3-font-size);
   margin: 0;
   padding: 0;
+}
+
+.references__background{
+  background-color: rgb(242, 242, 242);
+  border-radius: .25rem;
+}
+
+.references__content p,
+.references__subtitle,
+.references__title,
+.references__contact {
+  padding: 1rem;
 }
 
 /*========== INTERESTS ==========*/
